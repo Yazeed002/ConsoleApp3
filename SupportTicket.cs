@@ -124,8 +124,8 @@ namespace ConsoleApp3
             if (attachments == null)
                 throw new Exception("Not Allowed to add Empty Attachments.");
 
-            if ((Attachments.Count + attachments.Count) > 5)
-                throw new Exception("You can not Add more than 5 Attachments.");
+            if ((Attachments.Count + attachments.Count) > 10)
+                throw new Exception("You can not Add more than 10 Attachments.");
 
             Attachments.AddRange(attachments);
 
